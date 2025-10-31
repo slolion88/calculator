@@ -1,0 +1,84 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#calculator {
+    background-color: rgb(142, 202, 230);
+
+    border: 5px solid rgb(2, 48, 71);
+    border-radius: 10px;
+
+    max-width: 400px;
+}
+
+#display {
+    background-color: rgb(18, 103, 130);
+
+    color: rgb(33, 158, 188);
+    font-size: 48px;
+    text-align: right;
+
+    margin: 10px;
+    padding: 10px;
+}
+
+.button-container {
+    padding: 0px 10px 10px;
+}
+
+.num-and-operator-container {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0px 0px;
+}
+
+.clear-buttons,
+.numbers,
+.operators {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    gap: 5px;
+}
+
+button {
+    background-color: rgb(255, 183, 3);
+    color: rgb(2, 48, 71);
+    font-size: 36px;
+
+    border-radius: 10px;
+    border: 2px solid rgb(251, 133, 0);
+
+    min-width: 50px;
+    min-height: 50px;
+
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+#add,
+#multiply,
+#subtract,
+#divide {
+    min-width: 75px;
+    background-color: rgb(251, 133, 0);
+    color: rgb(2, 48, 71);
+    border: 2px solid rgb(255, 183, 3);
+}
+
+#clear-single,
+#clear-all {
+    background-color: rgb(33, 158, 188);
+    color: rgb(142, 202, 230);
+    border: 2px solid rgb(18, 103, 130);
+}
+
+#equals {
+    background-color: rgb(2, 48, 71);
+    color: rgb(33, 158, 188);
+    border: 2px solid rgb(33, 158, 188);
+}
