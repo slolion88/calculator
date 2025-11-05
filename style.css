@@ -7,8 +7,8 @@ body {
 
     border: 5px solid rgb(2, 48, 71);
     border-radius: 10px;
-
-    max-width: 400px;
+    
+    width: 400px;
 }
 
 #display {
